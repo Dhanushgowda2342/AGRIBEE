@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Oswald", serif;
+
 }
 
 
@@ -19,6 +21,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
 nav img{
     width:110px;
     height:110px;
@@ -40,3 +43,23 @@ nav img{
     font-size: 15px;
     font-style: oblique;
 }
+.nav-links ul li ::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:#f44336;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li :hover::after{
+    width:100%;
+}
+.text-box{
+    width:90%;
+    color:aliceblue;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
