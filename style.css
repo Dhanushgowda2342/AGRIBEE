@@ -26,6 +26,8 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+    position:relative;
+    top: -15px;
 }
 .nav-links ul li{
     list-style: none;
